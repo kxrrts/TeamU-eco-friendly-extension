@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Hawaii Eco-Friendly Awareness",
+    "version": "1.0",
+    "description": "Promote eco-friendly habits in Hawaii with a focus on water conservation, plastic pollution, and energy consumption.",
+    "permissions": [
+      "notifications", 
+      "tabs", 
+      "windows", 
+      "alarms"
+    ],
+    "background": {
+      "service_worker": "background.js" 
+    },
+    "action": {
+      "default_popup": "popup.html", 
+      "default_icon": {
+        "48": "extensionicon.png" 
+      }
+    },
+    "icons": {
+      "48": "extensionicon.png"  
+    }
+  }
+  
