@@ -54,7 +54,7 @@ function createEcoNotification() {
 // Handle notification click to open the popup.html page in a new window
 chrome.notifications.onClicked.addListener((notificationId) => {
     chrome.windows.create({
-        url: chrome.runtime.getURL("popup.html"),
+        url: chrome.runtime.getURL("https://ansonl.my.canva.site/eco-friendly-website"),
         type: "popup",
         width: 400,
         height: 600
